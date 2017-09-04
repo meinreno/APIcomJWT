@@ -14,27 +14,41 @@ Produtos:
 
 # Aplicações e Bibliotecas que devem ser instaladas:
 - mongodb - Bando de Dados baseado em Bibliotecas
-''' apt-get install -y mongodb-org '''
+''' 
+apt-get install -y mongodb-org 
+'''
 
 - Flask - MicroFramework baseado em Python
-''' pip install Flask '''
+''' 
+pip install Flask 
+'''
 
 - flask_jwt - Utilizado para criar o Token JWT
-''' pip install flask-jwt '''
+''' 
+pip install flask-jwt 
+'''
 
 - flask_cors - Utilizado para comunicação com o navegador, evitando o bloqueio de segurança dos navegadores quando realizado a requisição de um navegador fora do dominio.
-''' pip install flask-cors '''
+''' 
+pip install flask-cors
+'''
 
 - pymongo - Ferramenta para comunicar com o MongoDB
-''' pip install pymongo '''
+''' 
+pip install pymongo 
+'''
 
 # Instalação: 
 - Apos as instalações das bibliotecas Auxiliares e da Principal(Flask), copiar todos os aquivos em uma pasta.
 - Dentro da raiz do projeto, executar o script models/model.py, para criar o banco de dados padrão em MongoDB.
-''' python models/model.py '''
+''' 
+python models/model.py
+'''
 
 - para executar o projeto:
-''' python app.py '''
+''' 
+python app.py 
+'''
 
 
 
